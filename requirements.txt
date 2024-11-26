@@ -22,4 +22,4 @@ encodec
 streamlit
 torch==2.1.0
 setuptools wheel
-git+https://git@github.com/facebookresearch/audiocraft#egg=audiocraft 
+audiocraft
