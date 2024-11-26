@@ -20,6 +20,8 @@ gradio
 torchmetrics
 encodec
 streamlit
-torch==2.1.0
-setuptools wheel
-audiocraft
+python -m pip install 'torch==2.1.0'
+python -m pip install setuptools wheel
+python -m pip install -U audiocraft
+python -m pip install -U git+https://git@github.com/facebookresearch/audiocraft#egg=audiocraft
+
