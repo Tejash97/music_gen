@@ -8,11 +8,12 @@ num2words
 numpy
 sentencepiece
 spacy==3.5.2
-torch>=2.0.0
-torchaudio>=2.0.0
+torch==2.1.0+cpu
+torchaudio==2.1.0+cpu
+-f https://download.pytorch.org/whl/torch_stable.html
 huggingface_hub
 tqdm
-transformers>=4.31.0  # need Encodec there.
+transformers>=4.31.0
 xformers
 demucs
 librosa
@@ -20,6 +21,7 @@ gradio
 torchmetrics
 encodec
 streamlit
-torch==2.1.0
-setuptools wheel
+setuptools
+wheel
 audiocraft
+
